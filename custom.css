@@ -1,0 +1,9 @@
+.caro{
+	width: 400px;
+	height: 400px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      margin: auto;
+  }

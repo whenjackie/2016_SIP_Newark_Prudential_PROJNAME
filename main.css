@@ -1,0 +1,129 @@
+body{
+	background-image: url("sky.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Lato;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: #CDCDCD;
+	text-align: center;
+	font-family: Alegreya Sans SC;
+	font-weight: 100;
+	font-size: 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Main Body*/
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+/* Navigation */
+.navigation{
+	background: none;
+	text-align: center;
+	/*position: fixed; Fixed positioning at the top of the page */
+	top: 10;
+	bottom: 0;
+	width: 100%;
+	z-index: 100;
+
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+}
+
+.navigation li{
+	display: inline-block;
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navigation li a:hover{
+	background: #888;
+}
+
+/* Albums */
+.new-wrapper { 
+	background-color:rgba(255,255,255,0.5); 
+	float: left; 
+	width: 275px; 
+	height: 300px; 
+	margin: 0px 25px 25px 0px; 
+}
+
+.album {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Box in Concert Page */
+.box{
+	text-align: center;
+	background-color:rgba(255,255,255,0.5); 
+	border-style: solid;
+    border: 20px 
+    border-color: gray;
+    padding: 20px;
+ 
+}
+
+.center{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Form on Reccomendation Page*/
+.reccForm {
+    margin:0 auto;
+    text-align:center;
+}
+
+
+/*Recommendations*/
+.recommendations{
+	text-align: center;
+	background-color:rgba(255,255,255,0.5); 
+	border-style: solid;
+    border: 20px 
+    border-color: gray;
+    padding: 20px;
+}
+
+/*About Page*/
+.aboutbox{
+	text-align: center;
+	background-color:rgba(255,255,255,0.5); 
+	border-style: solid;
+    border: 20px 
+    border-color: gray;
+    padding: 20px;
+ 
+}
+
+.center{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+

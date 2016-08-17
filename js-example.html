@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <style>
+      body{
+        font-family: 'Open Sans';
+        text-align: center;
+      }
+      #change{
+        width: 50%;
+        height: 50%;
+      }
+      #btn{
+        background-color: #e7e7e7;
+        border: solid;
+      }
+      #map {
+        width: 450px;
+        height: 300px;
+        background-color: grey;
+        margin: 0 auto;
+      }
+    </style>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiKYcnmIq7u_0WIBSReMihh9rYjFFjuVI&callback=initMap" async defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">Hello</div>
+        <div class="col-sm-4">Hey</div>
+        <div class="col-sm-4">Hi</div>
+      </div>
+      <h1 id="welcome">Welcome to my page!</h1>
+      <button id="btn" onclick="myFunction(); changePic();">yo</button><br><br>
+      <img src="sky.jpg" alt="Generic Sky Picture" id= "change"><br><br>
+      <div id ="map"></div>
+    </div>
+  </body>
+</html>
+
+
